@@ -10,6 +10,6 @@ main:
   - title: "About"
     url: /
   - title: "Projects"
-    url: /portfolio/
+    url: /projects/
   - title: "Experiences"
     url: /experiences/
