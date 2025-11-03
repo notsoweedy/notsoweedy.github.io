@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Vidhi Bansal / Site Title"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Vidhi Bansal"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://notsoweedy.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -24,13 +24,13 @@ repository               : "notsoweedy/notsoweedy.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Vidhi Bansal"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Passionate about building scalable systems, automation frameworks, and driving innovation through modern software engineering practices."
+  location         : "Hyderabad"
+  employer         : "Manipal Institute of Technology
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "bvidhi1997@gmail.com" 
   
   # Academic websites
   academia         : # URL
