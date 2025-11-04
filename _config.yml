@@ -23,7 +23,7 @@ repository               : "notsoweedy/notsoweedy.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "F6BA3017-95B3-4B29-842F-F5CDD7315E9E_1_105_c.jpg"
+  avatar           : "8B3FF3C5-AE7F-4282-91F2-13670B3E7C50_1_105_c.jpg"
   name             : "Vidhi Bansal"
   pronouns         : # example: "she/her"  
   bio              : "Passionate about building scalable systems, automation frameworks, and driving innovation through modern software engineering practices."
@@ -49,13 +49,13 @@ author:
   researchgate     : # URL e.g. https://www.researchgate.net/profile/[username]
   semantic_scholar : # URL e.g. https://www.semanticscholar.org/author/[username]
   ssrn             : # URL e.g. https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=[number]
-
+  
   # Repositories and software development
   github           : "notsoweedy"
   gitlab           : # username
   kaggle           : # username
   stackoverflow    : # URL e.g. https://stackoverflow.com/users/[number]/[username]
-
+  
   # Social media
   bluesky          : # Replace this with you Bluesky username
   discord          : # an invite link, username (discriminator#0000), or user ID
@@ -115,13 +115,11 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
-
 
 # Reading Files
 include:
@@ -158,14 +156,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -177,7 +173,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
 
 # Collections
 collections:
@@ -193,7 +188,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
@@ -256,13 +250,11 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins
 plugins:
@@ -279,7 +271,6 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -288,8 +279,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path> path: /categories/
+#  - <base_path> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -307,7 +298,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
